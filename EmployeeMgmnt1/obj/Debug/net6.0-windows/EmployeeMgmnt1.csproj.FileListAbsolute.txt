@@ -4,7 +4,6 @@ C:\Users\serr\source\repos\EmployeeMgmnt1\EmployeeMgmnt1\bin\Debug\net6.0-window
 C:\Users\serr\source\repos\EmployeeMgmnt1\EmployeeMgmnt1\bin\Debug\net6.0-windows\EmployeeMgmnt1.dll
 C:\Users\serr\source\repos\EmployeeMgmnt1\EmployeeMgmnt1\bin\Debug\net6.0-windows\EmployeeMgmnt1.pdb
 C:\Users\serr\source\repos\EmployeeMgmnt1\EmployeeMgmnt1\obj\Debug\net6.0-windows\EmployeeMgmnt1.Employees.resources
-C:\Users\serr\source\repos\EmployeeMgmnt1\EmployeeMgmnt1\obj\Debug\net6.0-windows\EmployeeMgmnt1.Form1.resources
 C:\Users\serr\source\repos\EmployeeMgmnt1\EmployeeMgmnt1\obj\Debug\net6.0-windows\EmployeeMgmnt1.Properties.Resources.resources
 C:\Users\serr\source\repos\EmployeeMgmnt1\EmployeeMgmnt1\obj\Debug\net6.0-windows\EmployeeMgmnt1.csproj.GenerateResource.cache
 C:\Users\serr\source\repos\EmployeeMgmnt1\EmployeeMgmnt1\obj\Debug\net6.0-windows\EmployeeMgmnt1.GeneratedMSBuildEditorConfig.editorconfig
@@ -16,3 +15,17 @@ C:\Users\serr\source\repos\EmployeeMgmnt1\EmployeeMgmnt1\obj\Debug\net6.0-window
 C:\Users\serr\source\repos\EmployeeMgmnt1\EmployeeMgmnt1\obj\Debug\net6.0-windows\EmployeeMgmnt1.pdb
 C:\Users\serr\source\repos\EmployeeMgmnt1\EmployeeMgmnt1\obj\Debug\net6.0-windows\EmployeeMgmnt1.genruntimeconfig.cache
 C:\Users\serr\source\repos\EmployeeMgmnt1\EmployeeMgmnt1\obj\Debug\net6.0-windows\ref\EmployeeMgmnt1.dll
+C:\Users\serr\source\repos\EmployeeMgmnt1\EmployeeMgmnt1\bin\Debug\net6.0-windows\Guna.UI2.dll
+C:\Users\serr\source\repos\EmployeeMgmnt1\EmployeeMgmnt1\bin\Debug\net6.0-windows\System.Management.dll
+C:\Users\serr\source\repos\EmployeeMgmnt1\EmployeeMgmnt1\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Management.dll
+C:\Users\serr\source\repos\EmployeeMgmnt1\EmployeeMgmnt1\obj\Debug\net6.0-windows\EmployeeMgmnt1.csproj.AssemblyReference.cache
+C:\Users\serr\source\repos\EmployeeMgmnt1\EmployeeMgmnt1\obj\Debug\net6.0-windows\EmployeeMgmnt1.csproj.CopyComplete
+C:\Users\serr\source\repos\EmployeeMgmnt1\EmployeeMgmnt1\obj\Debug\net6.0-windows\EmployeeMgmnt1.Departements.resources
+C:\Users\serr\source\repos\EmployeeMgmnt1\EmployeeMgmnt1\obj\Debug\net6.0-windows\EmployeeMgmnt1.Salaries.resources
+C:\Users\serr\source\repos\EmployeeMgmnt1\EmployeeMgmnt1\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\serr\source\repos\EmployeeMgmnt1\EmployeeMgmnt1\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\serr\source\repos\EmployeeMgmnt1\EmployeeMgmnt1\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\serr\source\repos\EmployeeMgmnt1\EmployeeMgmnt1\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\serr\source\repos\EmployeeMgmnt1\EmployeeMgmnt1\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\serr\source\repos\EmployeeMgmnt1\EmployeeMgmnt1\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\serr\source\repos\EmployeeMgmnt1\EmployeeMgmnt1\obj\Debug\net6.0-windows\EmployeeMgmnt1.LoginAccount.resources
