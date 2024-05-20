@@ -14,4 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EmployeeMgmnt1
-build_property.ProjectDir = C:\Users\serr\source\repos\EmployeeMgmnt1\EmployeeMgmnt1\
+build_property.ProjectDir = C:\Users\serr\Desktop\Gestion-d-employ-s\EmployeeMgmnt1\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -28,25 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Salaries));
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
             EditBtn = new Button();
             AddBtn = new Button();
-            PeriodTb = new Guna.UI2.WinForms.Guna2DateTimePicker();
             EmployeeCb = new ComboBox();
             pictureBox1 = new PictureBox();
             panel2 = new Panel();
-            label5 = new Label();
             label4 = new Label();
             label3 = new Label();
             DaysTb = new TextBox();
             label2 = new Label();
             label1 = new Label();
-            label6 = new Label();
             panel1 = new Panel();
             label7 = new Label();
             pictureBox5 = new PictureBox();
@@ -57,7 +52,10 @@
             label11 = new Label();
             pictureBox4 = new PictureBox();
             SalList = new Guna.UI2.WinForms.Guna2DataGridView();
-            AmountTb = new TextBox();
+            comboBox1 = new ComboBox();
+            label5 = new Label();
+            comboBox2 = new ComboBox();
+            label6 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
@@ -94,22 +92,6 @@
             AddBtn.UseVisualStyleBackColor = false;
             AddBtn.Click += AddBtn_Click;
             // 
-            // PeriodTb
-            // 
-            PeriodTb.Checked = true;
-            PeriodTb.CustomizableEdges = customizableEdges1;
-            PeriodTb.FillColor = Color.Teal;
-            PeriodTb.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            PeriodTb.Format = DateTimePickerFormat.Long;
-            PeriodTb.Location = new Point(12, 412);
-            PeriodTb.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
-            PeriodTb.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
-            PeriodTb.Name = "PeriodTb";
-            PeriodTb.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            PeriodTb.Size = new Size(228, 36);
-            PeriodTb.TabIndex = 43;
-            PeriodTb.Value = new DateTime(2024, 1, 15, 0, 17, 7, 482);
-            // 
             // EmployeeCb
             // 
             EmployeeCb.FormattingEnabled = true;
@@ -138,27 +120,16 @@
             panel2.Size = new Size(1012, 11);
             panel2.TabIndex = 38;
             // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Andalus", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label5.ForeColor = Color.Teal;
-            label5.Location = new Point(12, 449);
-            label5.Name = "label5";
-            label5.Size = new Size(111, 26);
-            label5.TabIndex = 34;
-            label5.Text = "Salary Amount";
-            // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Andalus", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label4.ForeColor = Color.Teal;
-            label4.Location = new Point(12, 321);
+            label4.Location = new Point(12, 445);
             label4.Name = "label4";
-            label4.Size = new Size(108, 26);
+            label4.Size = new Size(123, 26);
             label4.TabIndex = 32;
-            label4.Text = "Days Attended";
+            label4.Text = "Nombre de place";
             // 
             // label3
             // 
@@ -167,15 +138,15 @@
             label3.ForeColor = Color.Teal;
             label3.Location = new Point(12, 257);
             label3.Name = "label3";
-            label3.Size = new Size(68, 26);
+            label3.Size = new Size(88, 26);
             label3.TabIndex = 31;
-            label3.Text = "Emplyee";
+            label3.Text = "Code Client";
             label3.Click += label3_Click;
             // 
             // DaysTb
             // 
             DaysTb.Font = new Font("Andalus", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            DaysTb.Location = new Point(12, 350);
+            DaysTb.Location = new Point(12, 474);
             DaysTb.Name = "DaysTb";
             DaysTb.Size = new Size(228, 32);
             DaysTb.TabIndex = 30;
@@ -187,9 +158,9 @@
             label2.ForeColor = Color.Teal;
             label2.Location = new Point(413, 125);
             label2.Name = "label2";
-            label2.Size = new Size(124, 26);
+            label2.Size = new Size(184, 26);
             label2.TabIndex = 29;
-            label2.Text = "Manage Salary";
+            label2.Text = "Gestion de Réservation";
             // 
             // label1
             // 
@@ -198,20 +169,9 @@
             label1.ForeColor = Color.White;
             label1.Location = new Point(367, 29);
             label1.Name = "label1";
-            label1.Size = new Size(236, 26);
+            label1.Size = new Size(126, 26);
             label1.TabIndex = 1;
-            label1.Text = "Employee Managment System";
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Andalus", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.ForeColor = Color.Teal;
-            label6.Location = new Point(12, 383);
-            label6.Name = "label6";
-            label6.Size = new Size(53, 26);
-            label6.TabIndex = 33;
-            label6.Text = "Period";
+            label1.Text = "Gestion de vols";
             // 
             // panel1
             // 
@@ -228,17 +188,17 @@
             label7.AutoSize = true;
             label7.Font = new Font("Andalus", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label7.ForeColor = Color.Teal;
-            label7.Location = new Point(679, 89);
+            label7.Location = new Point(715, 89);
             label7.Name = "label7";
-            label7.Size = new Size(58, 26);
+            label7.Size = new Size(110, 26);
             label7.TabIndex = 61;
-            label7.Text = "Logout";
+            label7.Text = "Se déconnecter";
             label7.Click += label7_Click;
             // 
             // pictureBox5
             // 
             pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
-            pictureBox5.Location = new Point(627, 87);
+            pictureBox5.Location = new Point(663, 87);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(46, 34);
             pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
@@ -252,9 +212,9 @@
             label10.ForeColor = Color.Teal;
             label10.Location = new Point(419, 89);
             label10.Name = "label10";
-            label10.Size = new Size(99, 26);
+            label10.Size = new Size(88, 26);
             label10.TabIndex = 59;
-            label10.Text = "Deaprtement";
+            label10.Text = "Compagnie";
             label10.Click += label10_Click;
             // 
             // pictureBox3
@@ -274,9 +234,9 @@
             label9.ForeColor = Color.Teal;
             label9.Location = new Point(293, 87);
             label9.Name = "label9";
-            label9.Size = new Size(68, 26);
+            label9.Size = new Size(51, 26);
             label9.TabIndex = 57;
-            label9.Text = "Emplyee";
+            label9.Text = "Client";
             label9.Click += label9_Click;
             // 
             // pictureBox2
@@ -296,9 +256,9 @@
             label11.ForeColor = Color.Teal;
             label11.Location = new Point(568, 89);
             label11.Name = "label11";
-            label11.Size = new Size(53, 26);
+            label11.Size = new Size(89, 26);
             label11.TabIndex = 63;
-            label11.Text = "Salary";
+            label11.Text = "Réservation";
             // 
             // pictureBox4
             // 
@@ -312,26 +272,26 @@
             // 
             // SalList
             // 
-            dataGridViewCellStyle1.BackColor = Color.White;
-            SalList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = Color.FromArgb(100, 88, 255);
-            dataGridViewCellStyle2.Font = new Font("Andalus", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle2.ForeColor = Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
-            SalList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.BackColor = Color.White;
+            SalList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = Color.FromArgb(100, 88, 255);
+            dataGridViewCellStyle5.Font = new Font("Andalus", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle5.ForeColor = Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = DataGridViewTriState.True;
+            SalList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             SalList.ColumnHeadersHeight = 25;
             SalList.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = Color.White;
-            dataGridViewCellStyle3.Font = new Font("Andalus", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle3.ForeColor = Color.FromArgb(71, 69, 94);
-            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            dataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(71, 69, 94);
-            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
-            SalList.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = Color.White;
+            dataGridViewCellStyle6.Font = new Font("Andalus", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle6.ForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridViewCellStyle6.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle6.WrapMode = DataGridViewTriState.False;
+            SalList.DefaultCellStyle = dataGridViewCellStyle6;
             SalList.GridColor = Color.FromArgb(231, 229, 255);
             SalList.Location = new Point(293, 178);
             SalList.Name = "SalList";
@@ -362,14 +322,45 @@
             SalList.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
             SalList.CellContentClick += SalList_CellContentClick;
             // 
-            // AmountTb
+            // comboBox1
             // 
-            AmountTb.Enabled = false;
-            AmountTb.Font = new Font("Andalus", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            AmountTb.Location = new Point(12, 478);
-            AmountTb.Name = "AmountTb";
-            AmountTb.Size = new Size(228, 32);
-            AmountTb.TabIndex = 65;
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Items.AddRange(new object[] { "Male", "Female" });
+            comboBox1.Location = new Point(12, 353);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(228, 29);
+            comboBox1.TabIndex = 66;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Andalus", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label5.ForeColor = Color.Teal;
+            label5.Location = new Point(12, 321);
+            label5.Name = "label5";
+            label5.Size = new Size(71, 26);
+            label5.TabIndex = 65;
+            label5.Text = "Code Vol";
+            // 
+            // comboBox2
+            // 
+            comboBox2.FormattingEnabled = true;
+            comboBox2.Items.AddRange(new object[] { "Male", "Female" });
+            comboBox2.Location = new Point(12, 417);
+            comboBox2.Name = "comboBox2";
+            comboBox2.Size = new Size(228, 29);
+            comboBox2.TabIndex = 68;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Andalus", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label6.ForeColor = Color.Teal;
+            label6.Location = new Point(12, 385);
+            label6.Name = "label6";
+            label6.Size = new Size(126, 26);
+            label6.TabIndex = 67;
+            label6.Text = "Code Réservation";
             // 
             // Salaries
             // 
@@ -377,7 +368,10 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1012, 748);
-            Controls.Add(AmountTb);
+            Controls.Add(comboBox2);
+            Controls.Add(label6);
+            Controls.Add(comboBox1);
+            Controls.Add(label5);
             Controls.Add(SalList);
             Controls.Add(label11);
             Controls.Add(pictureBox4);
@@ -389,16 +383,13 @@
             Controls.Add(pictureBox2);
             Controls.Add(EditBtn);
             Controls.Add(AddBtn);
-            Controls.Add(PeriodTb);
             Controls.Add(EmployeeCb);
             Controls.Add(pictureBox1);
             Controls.Add(panel2);
-            Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(DaysTb);
             Controls.Add(label2);
-            Controls.Add(label6);
             Controls.Add(panel1);
             Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             FormBorderStyle = FormBorderStyle.None;
@@ -422,17 +413,14 @@
 
         private Button EditBtn;
         private Button AddBtn;
-        private Guna.UI2.WinForms.Guna2DateTimePicker PeriodTb;
         private ComboBox EmployeeCb;
         private PictureBox pictureBox1;
         private Panel panel2;
-        private Label label5;
         private Label label4;
         private Label label3;
         private TextBox DaysTb;
         private Label label2;
         private Label label1;
-        private Label label6;
         private Panel panel1;
         private Label label7;
         private PictureBox pictureBox5;
@@ -443,6 +431,9 @@
         private Label label11;
         private PictureBox pictureBox4;
         private Guna.UI2.WinForms.Guna2DataGridView SalList;
-        private TextBox AmountTb;
+        private ComboBox comboBox1;
+        private Label label5;
+        private ComboBox comboBox2;
+        private Label label6;
     }
 }

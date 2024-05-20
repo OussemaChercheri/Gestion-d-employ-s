@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\serr\\source\\repos\\EmployeeMgmnt1\\EmployeeMgmnt1\\EmployeeMgmnt1.csproj": {}
+    "C:\\Users\\serr\\Desktop\\Gestion-d-employ-s\\EmployeeMgmnt1\\EmployeeMgmnt1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\serr\\source\\repos\\EmployeeMgmnt1\\EmployeeMgmnt1\\EmployeeMgmnt1.csproj": {
+    "C:\\Users\\serr\\Desktop\\Gestion-d-employ-s\\EmployeeMgmnt1\\EmployeeMgmnt1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\serr\\source\\repos\\EmployeeMgmnt1\\EmployeeMgmnt1\\EmployeeMgmnt1.csproj",
+        "projectUniqueName": "C:\\Users\\serr\\Desktop\\Gestion-d-employ-s\\EmployeeMgmnt1\\EmployeeMgmnt1.csproj",
         "projectName": "EmployeeMgmnt1",
-        "projectPath": "C:\\Users\\serr\\source\\repos\\EmployeeMgmnt1\\EmployeeMgmnt1\\EmployeeMgmnt1.csproj",
+        "projectPath": "C:\\Users\\serr\\Desktop\\Gestion-d-employ-s\\EmployeeMgmnt1\\EmployeeMgmnt1.csproj",
         "packagesPath": "C:\\Users\\serr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\serr\\source\\repos\\EmployeeMgmnt1\\EmployeeMgmnt1\\obj\\",
+        "outputPath": "C:\\Users\\serr\\Desktop\\Gestion-d-employ-s\\EmployeeMgmnt1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\serr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -68,7 +73,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

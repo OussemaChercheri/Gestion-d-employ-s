@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tCmP0Nc9yRdohUkwN9ch2uCCF3DvqRCPD6xtZ+zItlvxRC5waEE/cpTvXlNodq4IThQECOp4bPUnooaYUNZfeA==",
+  "dgSpecHash": "gZGBu807E4M9hdyFYTg3gZHU5o5i34J7gEO/6hI5klxm8KzZi4GDAwG+0Cbl9xJUV4nOx9pHDJoDsqX5PRy+wA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\serr\\source\\repos\\EmployeeMgmnt1\\EmployeeMgmnt1\\EmployeeMgmnt1.csproj",
+  "projectFilePath": "C:\\Users\\serr\\Desktop\\Gestion-d-employ-s\\EmployeeMgmnt1\\EmployeeMgmnt1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\serr\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.6\\guna.ui2.winforms.2.0.4.6.nupkg.sha512",
     "C:\\Users\\serr\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
